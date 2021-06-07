@@ -1,0 +1,25 @@
+Algoritmo Ejercicio13
+	Repetir
+		Escribir "1) Para Sumar "
+		Escribir "2) Para dividir "
+		Escribir "3) Para salir "
+		Leer a
+		Si a == 1 Entonces
+			Escribir "Ingrese numero"
+			leer num
+			Escribir "Ingrese numero 2"
+			leer num2
+			Escribir "La suma de los numeros es: " num+num2
+		Fin Si
+		Si a == 2 Entonces
+			Escribir "Ingrese numero"
+			leer num3
+			Escribir "Ingrese numero 2"
+			leer num4
+			Si num4 == 0 Entonces
+				Escribir "No se puede dividir dentro de 0"
+			Fin Si
+			Escribir "La division de los numeros es: " num3/num4
+		Fin Si
+	Hasta Que a == 3
+FinAlgoritmo
